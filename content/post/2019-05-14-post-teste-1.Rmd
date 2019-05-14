@@ -1,0 +1,11 @@
+---
+title: Post teste 1
+author: Felipe Smolski
+date: '2019-05-14'
+slug: post-teste-1
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---

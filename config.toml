@@ -9,7 +9,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "Assist.Prof.Dr. Alper YILMAZ"
+title = "Felipe Smolski"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -58,8 +58,8 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Alper Yilmaz"
-  role = "Assistant Professor"
+  name = "Felipe Smolski"
+  role = ""
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -399,10 +399,10 @@ enableGitInfo = false
   languageCode = "tr-tr"
   title="Dr.Öğr.Üyesi Alper Yılmaz"
   [languages.tr.params]
-    name = "Alper Yılmaz"
-    role = "Dr.Öğr.Üyesi"
-    address = "YTÜ Davutpaşa Kampüsü, Biyomühendislik Bölümü, Oda KM-A129"
-    organizations = [ { name = "Yıldız Teknik Üniversitesi", url = "http://avesis.yildiz.edu.tr/alyilmaz/" } ]
+    name = "Felipe Smolski"
+    role = ""
+    address = ""
+    organizations = [ { name = "", url = "" } ]
 # skip params key for front matter
   [[languages.tr.menu.main]]
     name = "Anasayfa"
