@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.3.0">
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.55.5" />
   <meta name="author" content="Alper Yilmaz">
 
   
@@ -16,8 +16,8 @@
     
   
   <meta name="description" content="Here&rsquo;s the matrix that we&rsquo;ll be using:
-$ paste &lt;(seq 1 5) &lt;(seq 12 16) 1	12 2	13 3	14 4	15 5	16  Now, let&rsquo;s use a perl one-liner with nested maps to transpose the matrix:
-$ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &quot;\n&quot;,map {$row=$_; join&quot;\t&quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &quot;\n&quot; }&#39; 1	2	3	4	5 12	13	14	15	16  I got the idea from this blog post, but I slightly modified it so that you don&rsquo;t need to make a copy of the transposed array (to save memory)">
+$ paste &lt;(seq 1 5) &lt;(seq 12 16) 1 12 2 13 3 14 4 15 5 16  Now, let&rsquo;s use a perl one-liner with nested maps to transpose the matrix:
+$ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &quot;\n&quot;,map {$row=$_; join&quot;\t&quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &quot;\n&quot; }&#39; 1 2 3 4 5 12 13 14 15 16  I got the idea from this blog post, but I slightly modified it so that you don&rsquo;t need to make a copy of the transposed array (to save memory)">
 
   
   <link rel="alternate" hreflang="en-us" href="/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/">
@@ -112,8 +112,8 @@ $ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { 
   <meta property="og:url" content="/blog/2011/07/07/transpose-a-matrix-with-perl-nested-map/">
   <meta property="og:title" content="Transpose a matrix with perl nested map | Assist.Prof.Dr. Alper YILMAZ">
   <meta property="og:description" content="Here&rsquo;s the matrix that we&rsquo;ll be using:
-$ paste &lt;(seq 1 5) &lt;(seq 12 16) 1	12 2	13 3	14 4	15 5	16  Now, let&rsquo;s use a perl one-liner with nested maps to transpose the matrix:
-$ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &quot;\n&quot;,map {$row=$_; join&quot;\t&quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &quot;\n&quot; }&#39; 1	2	3	4	5 12	13	14	15	16  I got the idea from this blog post, but I slightly modified it so that you don&rsquo;t need to make a copy of the transposed array (to save memory)"><meta property="og:image" content="/img/portrait.jpg">
+$ paste &lt;(seq 1 5) &lt;(seq 12 16) 1 12 2 13 3 14 4 15 5 16  Now, let&rsquo;s use a perl one-liner with nested maps to transpose the matrix:
+$ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &quot;\n&quot;,map {$row=$_; join&quot;\t&quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &quot;\n&quot; }&#39; 1 2 3 4 5 12 13 14 15 16  I got the idea from this blog post, but I slightly modified it so that you don&rsquo;t need to make a copy of the transposed array (to save memory)"><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2011-07-07T09:33:37&#43;00:00">
@@ -475,18 +475,18 @@ $ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { 
       <p>Here&rsquo;s the matrix that we&rsquo;ll be using:</p>
 
 <pre><code class="language-bash">$ paste &lt;(seq 1 5) &lt;(seq 12 16) 
-1	12
-2	13
-3	14
-4	15
-5	16
+1   12
+2   13
+3   14
+4   15
+5   16
 </code></pre>
 
 <p>Now, let&rsquo;s use a perl one-liner with nested maps to transpose the matrix:</p>
 
 <pre><code class="language-bash">$ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane 'push @matrix,[@F]; END { print join &quot;\n&quot;,map {$row=$_; join&quot;\t&quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &quot;\n&quot; }'
-1	2	3	4	5
-12	13	14	15	16
+1   2   3   4   5
+12  13  14  15  16
 </code></pre>
 
 <p>I got the idea from this <a href="http://www.hidemail.de/blog/perl_tutor.shtml#map_transpose_matrix" target="_blank">blog post</a>, but I slightly modified it so that you don&rsquo;t need to make a copy of the transposed array (to save memory)</p>
@@ -712,10 +712,6 @@ $ paste &lt;(seq 1 5) &lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { 
 
 <div class="container">
   <footer class="site-footer">
-  
-  <p class="powered-by">
-    <a href="/privacy/">Privacy Policy</a>
-  </p>
   
 
   <p class="powered-by">

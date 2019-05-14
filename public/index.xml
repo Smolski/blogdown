@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assist.Prof.Dr. Alper YILMAZ on Assist.Prof.Dr. Alper YILMAZ</title>
@@ -7,8 +6,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/blog/2019/05/13/hello-r-markdown/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019/05/13/hello-r-markdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2019-05-13-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Example Page</title>
@@ -31,26 +81,16 @@
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0300</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Example Talk</title>
       <link>/talk/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0300</pubDate>
       
       <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
+  
+Click on the **Slides** button above to view the built-in slides feature.
 
 &lt;/div&gt;
-
 
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 
@@ -112,11 +152,11 @@ oldhistory-time(){ for file in /home/alper/.history_backup_20*; do cat $file; ec
 
 &lt;p&gt;In terminal, tty-list command lists the pts number and working folder name as shown below:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;pts/3	/home/alper
-pts/6	/home/alper
-pts/7	/home/alper/.logs
-pts/8	/home/alper/tmp
-pts/9	/home/alper/Documents/blog-github/website
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;pts/3   /home/alper
+pts/6   /home/alper
+pts/7   /home/alper/.logs
+pts/8   /home/alper/tmp
+pts/9   /home/alper/Documents/blog-github/website
 pts/9   /home/alper/Documents/blog-github/website
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -634,18 +674,18 @@ Figure 1: A fancy pie chart.
       <description>&lt;p&gt;Here&amp;rsquo;s the matrix that we&amp;rsquo;ll be using:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) 
-1	12
-2	13
-3	14
-4	15
-5	16
+1   12
+2   13
+3   14
+4   15
+5   16
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Now, let&amp;rsquo;s use a perl one-liner with nested maps to transpose the matrix:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ paste &amp;lt;(seq 1 5) &amp;lt;(seq 12 16) | perl -ane &#39;push @matrix,[@F]; END { print join &amp;quot;\n&amp;quot;,map {$row=$_; join&amp;quot;\t&amp;quot;,map { $matrix[$_][$row]} 0 .. $#matrix } 0 .. $#{$matrix[0]}; print &amp;quot;\n&amp;quot; }&#39;
-1	2	3	4	5
-12	13	14	15	16
+1   2   3   4   5
+12  13  14  15  16
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I got the idea from this &lt;a href=&#34;http://www.hidemail.de/blog/perl_tutor.shtml#map_transpose_matrix&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;, but I slightly modified it so that you don&amp;rsquo;t need to make a copy of the transposed array (to save memory)&lt;/p&gt;
@@ -669,8 +709,8 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;And the result is:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;3	23
-40	50
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;3   23
+40  50
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;code&gt;map&lt;/code&gt; was used to get first and last element of array, &lt;code&gt;grep&lt;/code&gt; is used to filter out arrays that has less than 2 elements.&lt;/p&gt;</description>
@@ -688,8 +728,8 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;File1: small-chr-genes.bed (holds locations of genes)&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1	10	20	gene1	0	+
-1	40	50	gene2	0	-
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1   10  20  gene1   0   +
+1   40  50  gene2   0   -
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;File2: small-chr.fa (genome sequence file)&lt;/p&gt;
@@ -701,7 +741,7 @@ ACGACTACGACATCACGACACACGACGACATCACGACTAC
 
 &lt;p&gt;File3: small-chr.genome (genome file which contains name and length of each chromosome)&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1	80
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;1   80
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The one-liner below extracts 5 basepairs upstream region for each gene and slopBed takes care of strand issues (reverse complement of extracted sequence if gene is on negative strand) and genome size issues (trim the extracted sequence if gene is close to beginning or end of chromosome).&lt;/p&gt;

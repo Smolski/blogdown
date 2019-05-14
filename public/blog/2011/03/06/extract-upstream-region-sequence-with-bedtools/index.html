@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.3.0">
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.55.5" />
   <meta name="author" content="Alper Yilmaz">
 
   
@@ -476,8 +476,8 @@ In this post, I&rsquo;ll be describing how to extract upstream region sequences 
 
 <p>File1: small-chr-genes.bed (holds locations of genes)</p>
 
-<pre><code class="language-txt">1	10	20	gene1	0	+
-1	40	50	gene2	0	-
+<pre><code class="language-txt">1   10  20  gene1   0   +
+1   40  50  gene2   0   -
 </code></pre>
 
 <p>File2: small-chr.fa (genome sequence file)</p>
@@ -489,7 +489,7 @@ ACGACTACGACATCACGACACACGACGACATCACGACTAC
 
 <p>File3: small-chr.genome (genome file which contains name and length of each chromosome)</p>
 
-<pre><code class="language-txt">1	80
+<pre><code class="language-txt">1   80
 </code></pre>
 
 <p>The one-liner below extracts 5 basepairs upstream region for each gene and slopBed takes care of strand issues (reverse complement of extracted sequence if gene is on negative strand) and genome size issues (trim the extracted sequence if gene is close to beginning or end of chromosome).</p>
@@ -735,10 +735,6 @@ TGATG
 
 <div class="container">
   <footer class="site-footer">
-  
-  <p class="powered-by">
-    <a href="/privacy/">Privacy Policy</a>
-  </p>
   
 
   <p class="powered-by">

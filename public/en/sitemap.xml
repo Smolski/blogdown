@@ -1,5 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/tr/" hreflang="tr"/>
+    
+      <loc>/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/tr/categories/" hreflang="tr"/>
+    
+      <loc>/categories/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/blog/2019/05/13/hello-r-markdown/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/r/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/r-markdown/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/tr/tags/" hreflang="tr"/>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/plot/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/regression/</loc>
+      <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     <url>
@@ -20,8 +99,8 @@
     
     <url>
     
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00+03:00</lastmod>
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00-02:00</lastmod>
     </url>
     
   
@@ -29,14 +108,6 @@
     <url>
     
       <loc>/talk/example/</loc>
-      <lastmod>2017-01-01T00:00:00+03:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+03:00</lastmod>
     </url>
     
@@ -68,6 +139,15 @@
     
     <url>
     
+      <loc>/tags/commandline/</loc>
+      <lastmod>2016-09-27T00:26:05+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/blog/2016/09/15/list-of-terminals-with-working-folder-names/</loc>
       <lastmod>2016-09-15T12:00:00+03:00</lastmod>
     </url>
@@ -78,6 +158,33 @@
     
       <loc>/blog/2016/05/20/jekyll-themes-i-want-to-try/</loc>
       <lastmod>2016-05-20T01:10:57+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/jekyll/</loc>
+      <lastmod>2016-05-20T01:10:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/demo/</loc>
+      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -100,8 +207,35 @@
     
     <url>
     
+      <loc>/project/</loc>
+      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/academic/</loc>
+      <lastmod>2018-01-13T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/blog/2016/04/20/academic-the-website-designer-for-hugo/</loc>
       <lastmod>2018-01-13T00:00:00+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2015-09-01T00:00:00+03:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -116,8 +250,29 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/tr/publication_types/" hreflang="tr"/>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2015-09-01T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/blog/2015/07/23/hello-r-markdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/1/</loc>
+      <lastmod>2013-07-01T00:00:00+03:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -140,6 +295,24 @@
     
     <url>
     
+      <loc>/tags/one-liner/</loc>
+      <lastmod>2011-07-07T09:33:37+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/perl/</loc>
+      <lastmod>2011-07-07T09:33:37+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/blog/2011/06/27/extract-intervals-from-an-array-of-numbers/</loc>
       <lastmod>2011-06-27T06:58:02+00:00</lastmod>
     </url>
@@ -156,8 +329,35 @@
     
     <url>
     
+      <loc>/tags/bioinformatics/</loc>
+      <lastmod>2011-03-06T08:40:36+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/</loc>
       <lastmod>2010-10-16T22:13:24+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/gnuplot/</loc>
+      <lastmod>2010-10-16T22:13:24+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/visualization/</loc>
+      <lastmod>2010-10-16T22:13:24+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -190,6 +390,15 @@
     
       <loc>/blog/2010/04/08/most-used-commands-in-history/</loc>
       <lastmod>2010-04-08T09:11:53+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/linux/</loc>
+      <lastmod>2010-04-08T09:11:53+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -260,113 +469,6 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2018-01-13T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/" hreflang="tr"/>
-    
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/categories/" hreflang="tr"/>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/publication_types/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/publication_types/" hreflang="tr"/>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/slides/</loc>
       <priority>0</priority>
     </url>
@@ -376,108 +478,6 @@
     <url>
     
       <loc>/slides/example-slides/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="/tr/tags/" hreflang="tr"/>
-    
-      <loc>/tags/</loc>
-      <lastmod>2018-01-13T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/bioinformatics/</loc>
-      <lastmod>2011-03-06T08:40:36+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/commandline/</loc>
-      <lastmod>2016-09-27T00:26:05+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/gnuplot/</loc>
-      <lastmod>2010-10-16T22:13:24+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/jekyll/</loc>
-      <lastmod>2016-05-20T01:10:57+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/linux/</loc>
-      <lastmod>2010-04-08T09:11:53+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/one-liner/</loc>
-      <lastmod>2011-07-07T09:33:37+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/perl/</loc>
-      <lastmod>2011-07-07T09:33:37+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/visualization/</loc>
-      <lastmod>2010-10-16T22:13:24+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

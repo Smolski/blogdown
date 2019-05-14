@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Academic</title>
-      <link>/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plot</title>
+      <link>/tags/plot/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>/tags/regression/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commandline</title>
+      <link>/tags/commandline/</link>
+      <pubDate>Tue, 27 Sep 2016 00:26:05 +0300</pubDate>
+      
+      <guid>/tags/commandline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>/tags/jekyll/</link>
+      <pubDate>Fri, 20 May 2016 01:10:57 +0300</pubDate>
+      
+      <guid>/tags/jekyll/</guid>
       <description></description>
     </item>
     
@@ -40,56 +76,11 @@
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bioinformatics</title>
-      <link>/tags/bioinformatics/</link>
-      <pubDate>Sun, 06 Mar 2011 08:40:36 +0000</pubDate>
-      
-      <guid>/tags/bioinformatics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>commandline</title>
-      <link>/tags/commandline/</link>
-      <pubDate>Tue, 27 Sep 2016 00:26:05 +0300</pubDate>
-      
-      <guid>/tags/commandline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gnuplot</title>
-      <link>/tags/gnuplot/</link>
-      <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
-      
-      <guid>/tags/gnuplot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jekyll</title>
-      <link>/tags/jekyll/</link>
-      <pubDate>Fri, 20 May 2016 01:10:57 +0300</pubDate>
-      
-      <guid>/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>/tags/linux/</link>
-      <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
-      
-      <guid>/tags/linux/</guid>
+      <guid>/tags/academic/</guid>
       <description></description>
     </item>
     
@@ -112,20 +103,20 @@
     </item>
     
     <item>
-      <title>plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>bioinformatics</title>
+      <link>/tags/bioinformatics/</link>
+      <pubDate>Sun, 06 Mar 2011 08:40:36 +0000</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>/tags/bioinformatics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>gnuplot</title>
+      <link>/tags/gnuplot/</link>
+      <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>/tags/gnuplot/</guid>
       <description></description>
     </item>
     
@@ -135,6 +126,15 @@
       <pubDate>Sat, 16 Oct 2010 22:13:24 +0000</pubDate>
       
       <guid>/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Thu, 08 Apr 2010 09:11:53 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     

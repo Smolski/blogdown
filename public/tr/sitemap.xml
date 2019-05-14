@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/tr/categories/" hreflang="tr"/>
-      <xhtml:link rel="alternate" href="/categories/" hreflang="en"/>
-    
-      <loc>/tr/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
   
     
     <url>
@@ -20,6 +8,17 @@
     
       <loc>/tr/</loc>
       <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="/tr/categories/" hreflang="tr"/>
+      <xhtml:link rel="alternate" href="/categories/" hreflang="en"/>
+    
+      <loc>/tr/categories/</loc>
       <priority>0</priority>
     </url>
     
