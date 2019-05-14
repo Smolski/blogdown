@@ -9,3 +9,14 @@ image:
   caption: ''
   focal_point: ''
 ---
+
+
+# Título
+
+Este é o novo post. 
+
+
+```{r}
+hist(rnorm(10))
+```
+
